@@ -1,0 +1,690 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "serviceName": "Google 정기 결제",
+      "category": "통합 관리",
+      "description": "Google 계정에 연결된 정기 결제를 한 번에 확인하고 관리하는 페이지예요.",
+      "aliases": [
+        "구글 정기결제",
+        "구글 구독",
+        "google subscriptions",
+        "play subscriptions"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://myaccount.google.com/subscriptions"
+        }
+      ],
+      "androidPackage": "com.android.vending",
+      "openMode": "both",
+      "steps": [
+        "Google 계정 로그인",
+        "내 프로필",
+        "결제 및 정기 결제",
+        "원하는 항목 선택 후 해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google Play 고객센터 - 정기 결제 취소, 일시중지 또는 변경",
+          "url": "https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=ko"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nGoogle Play 고객센터 기준 정기 결제 관리 경로는 다음과 같습니다.\n\n(1) Android 기기에서 Google Play 스토어 실행\n(2) 프로필 사진 선택\n(3) 결제 및 정기 결제 선택\n(4) 정기 결제 선택\n(5) 해지할 항목 선택 후 정기 결제 취소 진행\n\n[참고]\n- 앱을 삭제해도 정기 결제는 취소되지 않습니다.\n- 취소 후에도 이미 결제한 기간 동안은 계속 이용할 수 있습니다."
+    },
+    {
+      "serviceName": "개인정보 포털 탈퇴지원",
+      "category": "통합 관리",
+      "description": "여러 웹사이트의 회원 탈퇴를 지원하는 정부 운영 링크예요.",
+      "aliases": [
+        "회원탈퇴지원",
+        "개인정보포털",
+        "privacy"
+      ],
+      "links": [
+        {
+          "kind": "support",
+          "url": "https://www.privacy.go.kr/front/wcp/dcl/per/memberSecStep1.do#none"
+        }
+      ],
+      "androidPackage": null,
+      "openMode": "webOnly",
+      "steps": [
+        "본인 인증",
+        "대상 사이트 선택",
+        "탈퇴 지원 절차 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "개인정보 포털 - 회원탈퇴지원 서비스",
+          "url": "https://www.privacy.go.kr/front/wcp/dcl/per/memberSecStep1.do#none"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[이용 경로]\n개인정보 포털 회원탈퇴지원 서비스 진행 경로는 다음과 같습니다.\n\n(1) 개인정보 포털 접속\n(2) 회원탈퇴지원 서비스 선택\n(3) 본인 인증 진행\n(4) 대상 사이트 선택\n(5) 탈퇴 지원 절차 진행\n\n[참고]\n- 이 서비스는 구독 해지용이 아니라 웹사이트 회원 탈퇴 지원 서비스입니다.\n- 결제성 구독은 각 서비스나 결제처에서 별도로 해지해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "배민클럽",
+      "category": "멤버십",
+      "description": null,
+      "aliases": [
+        "배민",
+        "배달의민족",
+        "baemin",
+        "baemin club"
+      ],
+      "links": [],
+      "androidPackage": "com.sampleapp",
+      "openMode": "appOnly",
+      "steps": [
+        "배민 앱 열기",
+        "마이배민 탭",
+        "배민클럽 진입",
+        "구독 관리에서 해지"
+      ],
+      "sourceLinks": [],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 앱 내 해지 경로는 다음과 같습니다.\n\n(1) 배달의민족 앱 실행\n(2) 마이배민 탭 선택\n(3) 배민클럽 진입\n(4) 구독 관리 또는 멤버십 관리에서 해지 진행\n\n[참고]\n- 공개된 공식 웹 해지 문서는 바로 확인되지 않았습니다.\n- 앱에서 직접 확인하는 방식이 가장 현실적인 경로입니다."
+    },
+    {
+      "serviceName": "쿠팡 와우",
+      "category": "멤버십",
+      "description": null,
+      "aliases": [
+        "쿠팡",
+        "와우",
+        "coupang",
+        "wow"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "http://loyalty.coupang.com/loyalty/management/home"
+        }
+      ],
+      "androidPackage": "com.coupang.mobile",
+      "openMode": "both",
+      "steps": [
+        "쿠팡 앱/사이트",
+        "사람 모양 아이콘(마이쿠팡)",
+        "화면 상단 톱니바퀴(내정보관리)",
+        "와우 멤버십 클릭",
+        "멤버십 관리에서 해지"
+      ],
+      "sourceLinks": [],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 쿠팡 와우 해지 경로는 다음과 같습니다.\n\n(1) 쿠팡 앱 또는 사이트 접속\n(2) 마이쿠팡 진입\n(3) 내정보관리 또는 설정 진입\n(4) 와우 멤버십 선택\n(5) 멤버십 관리에서 해지 진행\n\n[참고]\n- 모바일 웹에서는 관리 링크가 앱 설치 유도로 넘어가는 경우가 있습니다.\n- 앱에서 진행하는 쪽이 더 안정적입니다."
+    },
+    {
+      "serviceName": "네이버 멤버십",
+      "category": "멤버십",
+      "description": null,
+      "aliases": [
+        "네이버",
+        "네이버플러스",
+        "naver plus",
+        "naver membership"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://nid.naver.com/membership/subscribe"
+        }
+      ],
+      "androidPackage": "com.nhn.android.search",
+      "openMode": "both",
+      "steps": [
+        "네이버 로그인",
+        "멤버십 관리 진입",
+        "정기결제 해지 선택"
+      ],
+      "sourceLinks": [
+        {
+          "title": "네이버플러스 멤버십 고객센터 - 해지 및 환불 요청",
+          "url": "https://help.naver.com/service/23168/contents/13774?lang=ko&osType=COMMONOS"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n네이버플러스 멤버십 고객센터 기준 진행 경로는 다음과 같습니다.\n\n(1) 네이버 멤버십 관리 페이지 진입\n(2) 정기결제 해지 또는 즉시 종료 선택\n(3) 환불 예상 금액, 회수 예정 포인트, 주의사항 확인\n(4) 해지 또는 즉시 종료 진행\n\n[참고]\n- 디지털 콘텐츠를 사용하지 않은 경우에만 즉시 종료와 환불이 가능합니다.\n- 디지털 콘텐츠를 사용했다면 즉시 종료 대신 정기결제 해지만 가능합니다."
+    },
+    {
+      "serviceName": "컬리",
+      "category": "멤버십",
+      "description": null,
+      "aliases": [
+        "마켓컬리",
+        "컬리멤버스",
+        "kurly",
+        "kurly members"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.kurly.com/member/membership"
+        }
+      ],
+      "androidPackage": "com.dbs.kurly.m2",
+      "openMode": "both",
+      "steps": [
+        "컬리 앱 또는 웹 로그인",
+        "마이컬리 진입",
+        "컬리멤버스 선택",
+        "구독 관리 또는 해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "컬리멤버스 구독",
+          "url": "https://www.kurly.com/member/membership"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 컬리멤버스 해지 경로는 다음과 같습니다.\n\n(1) 컬리 앱 또는 웹 로그인\n(2) 마이컬리 진입\n(3) 컬리멤버스 선택\n(4) 구독 관리 또는 해지 진행\n\n[참고]\n- 공식 컬리멤버스 페이지는 확인했지만 공개된 단일 해지 FAQ 문서는 바로 찾기 어려웠습니다.\n- 실제 메뉴명은 앱 버전에 따라 조금 다를 수 있으며, 해지 후에도 현재 결제 기간 동안은 혜택이 유지될 수 있습니다."
+    },
+    {
+      "serviceName": "Netflix",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "넷플릭스",
+        "netflix"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.netflix.com/cancelplan"
+        }
+      ],
+      "androidPackage": "com.netflix.mediaclient",
+      "openMode": "both",
+      "steps": [
+        "Netflix 로그인",
+        "멤버십 해지 확인",
+        "해지 완료"
+      ],
+      "sourceLinks": [
+        {
+          "title": "넷플릭스 고객센터 - 넷플릭스 멤버십 해지 방법",
+          "url": "https://help.netflix.com/ko/node/407"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n넷플릭스 고객센터 기준 해지 경로는 다음과 같습니다.\n\n(1) 넷플릭스 계정 페이지 또는 멤버십 관리 페이지 진입\n(2) 멤버십 해지 선택\n(3) 해지 완료 확인\n\n[참고]\n- 앱 삭제나 로그아웃만으로는 해지되지 않습니다.\n- 해지 후에도 남아 있는 결제 주기 종료일까지는 계속 이용할 수 있습니다.\n- 파트너 결제로 가입했다면 해당 파트너 안내에 따라 해지해야 합니다."
+    },
+    {
+      "serviceName": "Disney+",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "디즈니플러스",
+        "디즈니+",
+        "disney plus",
+        "disney+"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.disneyplus.com/account"
+        }
+      ],
+      "androidPackage": "com.disney.disneyplus",
+      "openMode": "both",
+      "steps": [
+        "프로필 선택",
+        "계정 진입",
+        "구독 선택",
+        "구독 취소 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Disney+ Help Center - How to cancel Disney+",
+          "url": "https://help.disneyplus.com/article/disneyplus-cancel"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nDisney+ 고객센터 기준 해지 경로는 다음과 같습니다.\n\n(1) Disney+ 앱 또는 웹에서 프로필 선택\n(2) 계정 진입\n(3) 구독 선택\n(4) 구독 취소 진행\n(5) 취소 확인 완료\n\n[참고]\n- 해지 후에도 현재 결제 기간 종료일까지는 계속 이용할 수 있습니다.\n- Google Play 또는 App Store 같은 외부 결제처를 통해 가입했다면 해당 결제처에서 취소해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "멜론",
+      "category": "음악",
+      "description": null,
+      "aliases": [
+        "melon",
+        "멜론 이용권"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.melon.com/commerce/mypage/product/web/productstatus_informUserProdCancelView.htm"
+        }
+      ],
+      "androidPackage": "com.iloen.melon",
+      "openMode": "both",
+      "steps": [
+        "내정보",
+        "이용권/쿠폰/캐시",
+        "변경/해지",
+        "결제방법 변경/해지",
+        "해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "멜론 고객센터 - 이용권 해지 방법",
+          "url": "https://help.melon.com/customer/faq/informFaq.htm?faqId=2212"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n멜론 고객센터 기준 대표 해지 경로는 다음과 같습니다.\n\n(1) 멜론 PC웹 > 내정보 > 멜론이용권/결제정보 > 멜론이용권 > 이용권 해지신청\n(2) 멜론 모바일앱(안드로이드) 또는 모바일웹 > 내정보 > 이용권/쿠폰/캐시 > 변경/해지 > 결제방법 변경/해지 > 해지\n(3) 톡뮤직(안드로이드) > MY PAGE > 해지\n(4) 삼성뮤직(안드로이드) > 내정보 > 이용권 > 해지\n\n[참고]\n- 멜론 모바일앱 해지 메뉴는 안드로이드 앱 4.2.4 버전 이상에서 제공합니다.\n- 구글 인앱 결제로 구매한 이용권은 Google Play 스토어에서 직접 해지해야 합니다."
+    },
+    {
+      "serviceName": "벅스",
+      "category": "음악",
+      "description": null,
+      "aliases": [
+        "bugs",
+        "벅스 이용권"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://music.bugs.co.kr/"
+        }
+      ],
+      "androidPackage": "com.neowiz.android.bugs",
+      "openMode": "both",
+      "steps": [
+        "벅스 로그인",
+        "마이뮤직 또는 내 정보 진입",
+        "이용권 또는 결제 정보 선택",
+        "이용권 해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "벅스 FAQ - 이용권/결제/해지",
+          "url": "https://music.bugs.co.kr/m/help/nextbugs?category=16"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n벅스 FAQ 기준 자동결제 해지예약 경로는 다음과 같습니다.\n\n- 안드로이드\n(1) 벅스 앱 로그인\n(2) 오른쪽 상단 설정 클릭\n(3) 이용권 > MY 탭 선택\n(4) 이용권 관리 > 비밀번호 입력\n(5) 하단 결제 변경 / 관리 > 맨 아래 해지예약 클릭\n(6) 자동결제 해지사유 선택 후 설문 완료\n\n- iOS 웹\n(1) m.bugs.co.kr 접속 후 로그인\n(2) 메뉴 > 이용권 구매 > MY 탭 클릭\n(3) 자동결제 이용권 > 해지예약 클릭\n(4) 자동결제 해지사유 선택 후 설문 완료\n\n[참고]\n- 해지예약을 하면 현재 이용권은 유효기간까지 사용하고 다음 결제일부터 자동결제가 중단됩니다.\n- 아이폰 앱스토어 결제 상품은 애플 정책에 따라 기기 설정 또는 애플 고객센터에서 해지해야 합니다."
+    },
+    {
+      "serviceName": "지니",
+      "category": "음악",
+      "description": null,
+      "aliases": [
+        "genie",
+        "지니뮤직",
+        "genie music"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.genie.co.kr/"
+        }
+      ],
+      "androidPackage": "com.ktmusic.geniemusic",
+      "openMode": "both",
+      "steps": [
+        "지니 앱 또는 웹 로그인",
+        "프로필 또는 마이뮤직 진입",
+        "이용권 내역 또는 정기결제 설정 선택",
+        "해지신청 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "지니 고객센터",
+          "url": "https://www.genie.co.kr/support/service"
+        },
+        {
+          "title": "지니 고객센터 - KT 지니팩 해지 안내",
+          "url": "https://www.genie.co.kr/support/service/helpView?ct=6&fi=2"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 지니 이용권 해지 경로는 다음과 같습니다.\n\n(1) 지니 앱 또는 웹 로그인\n(2) 프로필 또는 마이뮤직 진입\n(3) 이용권 내역 또는 정기결제 설정 선택\n(4) 해지신청 진행\n\n[참고]\n- 공식 고객센터는 확인했지만 일반 이용권 해지에 대한 단일 FAQ 문서는 바로 찾기 어려웠습니다.\n- KT 지니팩처럼 통신사 부가서비스 상품은 지니 앱/웹이 아니라 KT 고객센터나 마이케이티에서 해지해야 합니다."
+    },
+    {
+      "serviceName": "FLO",
+      "category": "음악",
+      "description": null,
+      "aliases": [
+        "플로",
+        "music flo",
+        "flo"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.music-flo.com/purchase/my"
+        }
+      ],
+      "androidPackage": "skplanet.musicmate",
+      "openMode": "both",
+      "steps": [
+        "FLO 앱 실행",
+        "설정 진입",
+        "나의 계정관리 또는 이용권 선택",
+        "이용권 해지 예약 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "FLO FAQ - 이용권 해지",
+          "url": "https://www.music-flo.com/help/faq/"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 FLO 이용권 해지 경로는 다음과 같습니다.\n\n(1) FLO 앱 실행\n(2) 설정 진입\n(3) 나의 계정관리 또는 이용권 선택\n(4) 이용권 해지 예약 진행\n\n[참고]\n- 공식 고객센터의 개별 해지 FAQ 문서는 바로 확인하지 못했습니다.\n- App Store, Google Play, 통신사 제휴 상품은 해당 결제처에서 해지해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "Spotify",
+      "category": "음악",
+      "description": null,
+      "aliases": [
+        "스포티파이",
+        "spotify premium"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.spotify.com/account/subscription/"
+        }
+      ],
+      "androidPackage": "com.spotify.music",
+      "openMode": "both",
+      "steps": [
+        "Spotify 로그인",
+        "구독 관리 진입",
+        "Premium 해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Spotify 고객지원 - 프리미엄 요금제 해지 방법",
+          "url": "https://support.spotify.com/kr-ko/article/cancel-premium/"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nSpotify 고객지원 기준 해지 경로는 다음과 같습니다.\n\n(1) Spotify 계정 페이지 접속\n(2) 현재 요금제 또는 요금제 관리 진입\n(3) 구독 취소 선택\n(4) 취소 확인 진행\n\n[참고]\n- 해지 후에도 다음 청구일까지는 Premium 혜택이 유지됩니다.\n- 계정 페이지에 해지 옵션이 보이지 않는다면 파트너사 결제일 수 있으니 해당 결제처에서 해지해야 합니다."
+    },
+    {
+      "serviceName": "라프텔",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "laftel",
+        "라프텔 멤버십"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://laftel.net/membership/manage"
+        }
+      ],
+      "androidPackage": "laftel.net.laftel",
+      "openMode": "both",
+      "steps": [
+        "라프텔 로그인",
+        "우측 상단 메뉴 또는 MY 선택",
+        "라프텔 멤버십 선택",
+        "해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "라프텔 고객센터 - 라프텔 멤버십 해지",
+          "url": "https://help.laftel.net/hc/ko/articles/6011133529231-%EB%9D%BC%ED%94%84%ED%85%94-%EB%A9%A4%EB%B2%84%EC%8B%AD-%ED%95%B4%EC%A7%80"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n라프텔 멤버십 관리 페이지 기준 해지 경로는 다음과 같습니다.\n\n(1) 라프텔 로그인\n(2) 멤버십 관리 페이지 진입\n(3) 멤버십 해지 진행\n\n[참고]\n- 멤버십은 언제든지 해지할 수 있지만 결제 예정일 24시간 이내에는 해지하더라도 다음 결제가 진행될 수 있습니다.\n- 해지 후에도 남은 이용 기간까지는 서비스를 계속 이용할 수 있습니다.\n- 인앱 결제나 외부 제휴처 구독은 해당 결제처에서 해지 또는 환불 요청을 해야 합니다."
+    },
+    {
+      "serviceName": "리디",
+      "category": "전자책",
+      "description": null,
+      "aliases": [
+        "리디셀렉트",
+        "ridi",
+        "ridibooks",
+        "ridi select"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://select.ridibooks.com/settings"
+        }
+      ],
+      "androidPackage": "com.initialcoms.ridi",
+      "openMode": "both",
+      "steps": [
+        "리디 앱 실행",
+        "셀렉트 진입",
+        "설정 선택",
+        "구독관리 선택",
+        "구독 해지 예약 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "리디 고객센터 - 셀렉트 구독 / 월정액 해지 방법",
+          "url": "https://ridihelp.ridibooks.com/support/solutions/articles/154000207870--%EC%85%80%EB%A0%89%ED%8A%B8-%EA%B5%AC%EB%8F%85-%EC%9B%94%EC%A0%95%EC%95%A1-%ED%95%B4%EC%A7%80-%EB%B0%A9%EB%B2%95"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n리디 고객센터 기준 셀렉트 해지 경로는 다음과 같습니다.\n\n(1) 리디 앱에서 셀렉트 진입\n(2) 설정 선택\n(3) 구독관리 선택\n(4) 구독 해지 예약 설정 진행\n\n[참고]\n- 해지 예약을 하더라도 구독 관리 페이지에 표시된 이용 기간 동안은 계속 이용할 수 있습니다.\n- 설정에 구독 관리 메뉴가 보이지 않으면 현재 구독 중이 아닌 상태일 수 있습니다."
+    },
+    {
+      "serviceName": "밀리의 서재",
+      "category": "전자책",
+      "description": null,
+      "aliases": [
+        "밀리",
+        "밀리의서재",
+        "millie",
+        "millie's library"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.millie.co.kr/v3/management"
+        }
+      ],
+      "androidPackage": "kr.co.millie.millieshelf",
+      "openMode": "both",
+      "steps": [
+        "밀리의 서재 앱 또는 웹 로그인",
+        "내 정보 또는 관리 진입",
+        "구독 관리 선택",
+        "정기구독 해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "밀리의 서재 FAQ - 구독/해지",
+          "url": "https://www.millie.co.kr/v3/customer/faq/871?type=category"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 밀리의 서재 해지 경로는 다음과 같습니다.\n\n(1) 밀리의 서재 앱 또는 웹 로그인\n(2) 내 정보 또는 구독 관리 진입\n(3) 정기구독 관리 선택\n(4) 해지 진행\n\n[참고]\n- 공식 문의 페이지는 확인했지만 공개된 단일 해지 FAQ 문서는 바로 찾기 어려웠습니다.\n- 인앱 결제나 외부 결제처 상품은 해당 결제처에서 따로 해지해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "Google One",
+      "category": "클라우드",
+      "description": null,
+      "aliases": [
+        "구글원",
+        "google one"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://one.google.com/settings"
+        }
+      ],
+      "androidPackage": "com.google.android.apps.subscriptions.red",
+      "openMode": "both",
+      "steps": [
+        "Google One 열기",
+        "설정 또는 멤버십 관리",
+        "해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google One 고객센터 - Google One 멤버십 취소",
+          "url": "https://support.google.com/googleone/answer/9056360?co=GENIE.Platform%3DAndroid&hl=ko"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nGoogle One 고객센터 기준 해지 경로는 다음과 같습니다.\n\n(1) Google One 앱 실행\n(2) 메뉴 선택\n(3) 설정 진입\n(4) 멤버십 취소 선택\n(5) 취소 확인 진행\n\n[참고]\n- 취소 후에도 결제 주기 종료일까지는 스토리지와 혜택을 계속 사용할 수 있습니다.\n- 종료 후에는 가족 공유 혜택과 추가 스토리지를 잃을 수 있고, 저장 용량이 기본 제공량을 초과하면 일부 Google 서비스 사용에 제한이 생길 수 있습니다."
+    },
+    {
+      "serviceName": "웨이브",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "wavve",
+        "웨이브 이용권"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.wavve.com/my"
+        }
+      ],
+      "androidPackage": "com.wavve.mobile",
+      "openMode": "both",
+      "steps": [
+        "MY 진입",
+        "이용권 또는 구독 관리",
+        "자동결제 해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "웨이브 고객센터",
+          "url": "https://www.wavve.com/customer/faq"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n웨이브 고객센터 기준 현재 확인된 경로는 다음과 같습니다.\n\n(1) 웨이브 앱 또는 웹에서 MY 진입\n(2) 이용권 또는 구독 관리 선택\n(3) 자동결제 해지 진행\n\n[참고]\n- 자동결제를 해지해도 현재 이용 중인 이용권은 만료일까지 사용할 수 있습니다.\n- 인앱 결제나 제휴사 상품은 각 스토어나 구매처에서 따로 해지해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "TVING",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "티빙",
+        "tving"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.tving.com/"
+        }
+      ],
+      "androidPackage": "net.cj.cjhv.gs.tving",
+      "openMode": "both",
+      "steps": [
+        "TVING 로그인",
+        "MY 또는 프로필 메뉴 진입",
+        "이용권 관리 또는 나의 이용권 선택",
+        "자동결제 해지 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "TVING FAQ - 중도 해지",
+          "url": "https://www.tving.com/help/faq?page=1&categoryCode=FAQN0004"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nTVING FAQ의 중도 해지 카테고리와 현재 확인된 이용권 관리 흐름 기준 경로는 다음과 같습니다.\n\n(1) TVING 웹 또는 앱 로그인\n(2) MY 또는 프로필 메뉴 진입\n(3) 이용권 관리 또는 나의 이용권 선택\n(4) 자동결제 해지 진행\n\n[참고]\n- 확인한 FAQ 카테고리는 중도 해지 관련 안내 모음입니다.\n- 인앱 결제나 통신사/제휴처 결제는 해당 결제처에서 해지해야 할 수 있습니다."
+    },
+    {
+      "serviceName": "요기패스X",
+      "category": "멤버십",
+      "description": null,
+      "aliases": [
+        "요기요",
+        "요기패스",
+        "yogiyo",
+        "yogipass"
+      ],
+      "links": [],
+      "androidPackage": "com.fineapp.yogiyo",
+      "openMode": "appOnly",
+      "steps": [
+        "요기요 앱 열기",
+        "마이요기요",
+        "요기패스X 구독관리",
+        "해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "요기요 FAQ",
+          "url": "https://www.yogiyo.co.kr/mobile/#/faq/"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n현재 확인된 앱 내 해지 경로는 다음과 같습니다.\n\n(1) 요기요 앱 실행\n(2) 마이요기요 진입\n(3) 요기패스X 구독관리 선택\n(4) 해지 진행\n\n[참고]\n- 요기요 공식 FAQ 페이지는 확인했지만 공개된 고객용 해지 상세 문서는 바로 찾기 어려웠습니다.\n- 현재는 앱 내 구독관리 경로를 따르는 것이 가장 직접적인 방법입니다."
+    },
+    {
+      "serviceName": "YouTube Premium",
+      "category": "동영상",
+      "description": null,
+      "aliases": [
+        "유튜브 프리미엄",
+        "youtube premium",
+        "youtube"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.youtube.com/paid_memberships"
+        }
+      ],
+      "androidPackage": "com.google.android.youtube",
+      "openMode": "both",
+      "steps": [
+        "YouTube 계정 선택",
+        "멤버십 관리 진입",
+        "해지"
+      ],
+      "sourceLinks": [
+        {
+          "title": "YouTube 고객센터 - YouTube Premium 또는 YouTube Music Premium 취소",
+          "url": "https://support.google.com/youtube/answer/6308278?co=GENIE.Platform%3DAndroid&hl=ko"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nYouTube 고객센터 기준 해지 경로는 다음과 같습니다.\n\n(1) 프로필 사진 선택\n(2) 유료 멤버십 선택\n(3) 취소할 멤버십 선택\n(4) 그대로 취소 선택\n(5) 취소 사유 선택 후 최종 취소 진행\n\n[참고]\n- 해지 후에는 다시 구독하지 않는 한 요금이 청구되지 않으며 혜택은 결제 기간 마지막 날까지 유지됩니다.\n- Google Play 결제로 가입한 경우에는 Play 구독 설정에서 취소해야 합니다."
+    },
+    {
+      "serviceName": "왓챠",
+      "category": "스트리밍",
+      "description": null,
+      "aliases": [
+        "watcha",
+        "왓챠 구독"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://watcha.com/settings"
+        }
+      ],
+      "androidPackage": "com.frograms.wplay",
+      "openMode": "both",
+      "steps": [
+        "왓챠 앱 또는 웹 로그인",
+        "프로필 선택",
+        "구독 정보 진입",
+        "해지하기 선택",
+        "해지 확인"
+      ],
+      "sourceLinks": [
+        {
+          "title": "왓챠 고객센터 - TV에서 구독 중인데 해지하고 싶어요",
+          "url": "https://help.watcha.com/hc/ko/articles/31326576396825-TV%EC%97%90%EC%84%9C-%EA%B5%AC%EB%8F%85-%EC%A4%91%EC%9D%B8%EB%8D%B0-%ED%95%B4%EC%A7%80%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%96%B4%EC%9A%94"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\n왓챠 고객센터 기준 해지 경로는 다음과 같습니다.\n\n- 모바일 앱\n(1) 오른쪽 상단 프로필 클릭\n(2) 프로필 바로 아래 구독 정보 클릭\n(3) 하단의 해지하기 클릭\n(4) 안내 내용 확인 후 해지할게요 클릭\n\n- PC 웹\n(1) 오른쪽 상단 프로필 클릭\n(2) 나의 왓챠 클릭\n(3) 구독 정보의 구독권 변경 및 해지 클릭\n(4) 구독을 해지하고 싶어요 클릭\n(5) 안내 내용 확인 후 해지할게요 클릭\n\n[참고]\n- 가장 왼쪽의 기본 프로필에서만 해지 및 해지 취소가 가능합니다.\n- 결제일 당일 해지는 다음 결제 예정일에 반영될 수 있고, 애플 앱스토어 결제는 애플 기기나 애플 고객센터를 통해서만 해지할 수 있습니다."
+    }
+  ]
+}
