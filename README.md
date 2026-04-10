@@ -8,7 +8,7 @@ Recommended flow:
 2. Run `tools/export_catalog_json.ps1`.
 3. Export the result to `docs/catalog/services.json`.
 4. Enable GitHub Pages for the repository.
-5. The app reads `https://myung6024.github.io/unsubscribehub/catalog/services.json`.
+5. The app reads `https://myung6024.github.io/unsubscribehub-catalog/catalog/services.json`.
 
 Runtime fallback order inside the app:
 
@@ -59,3 +59,17 @@ Generate JSON locally:
 ```powershell
 pwsh ./tools/export_catalog_json.ps1
 ```
+
+GitHub Actions automation:
+
+- Workflow file: `.github/workflows/sync-catalog-repo.yml`
+- Trigger: push to `master` when `SampleCatalog.kt`, the export script, or this README changes
+- Target repo: `myung6024/unsubscribehub-catalog`
+- Required secret: `CATALOG_REPO_TOKEN`
+
+Recommended token setup:
+
+- Create a fine-grained personal access token
+- Repository access: `myung6024/unsubscribehub-catalog`
+- Permission: `Contents` -> `Read and write`
+- Save it in the app repository secrets as `CATALOG_REPO_TOKEN`
