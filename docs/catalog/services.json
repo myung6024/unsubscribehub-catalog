@@ -4,7 +4,7 @@
     {
       "serviceName": "Google 정기 결제",
       "category": "통합 관리",
-      "description": "Google 계정에 연결된 정기 결제를 한 번에 확인하고 관리하는 페이지예요.",
+      "description": "Google Play로 결제한 앱 정기 결제를 확인하고 취소할 수 있어요.",
       "aliases": [
         "구글 정기결제",
         "구글 구독",
@@ -14,7 +14,7 @@
       "links": [
         {
           "kind": "subscription",
-          "url": "https://myaccount.google.com/subscriptions"
+          "url": "https://play.google.com/store/account/subscriptions"
         }
       ],
       "androidPackage": "com.android.vending",
@@ -32,7 +32,42 @@
         }
       ],
       "noteTitle": "해지 경로",
-      "notes": "[해지 경로]\nGoogle Play 고객센터 기준 정기 결제 관리 경로는 다음과 같습니다.\n\n(1) Android 기기에서 Google Play 스토어 실행\n(2) 프로필 사진 선택\n(3) 결제 및 정기 결제 선택\n(4) 정기 결제 선택\n(5) 해지할 항목 선택 후 정기 결제 취소 진행\n\n[참고]\n- 앱을 삭제해도 정기 결제는 취소되지 않습니다.\n- 취소 후에도 이미 결제한 기간 동안은 계속 이용할 수 있습니다."
+      "notes": "[해지 경로]\nGoogle Play 고객센터 기준 정기 결제 관리 경로는 다음과 같습니다.\n\n(1) Google Play 정기 결제 페이지로 이동하거나 Android 기기에서 Google Play 스토어 실행\n(2) Play 스토어에서는 프로필 사진 > 결제 및 정기 결제 > 정기 결제 선택\n(3) 해지할 항목 선택\n(4) 정기 결제 취소 선택 후 안내에 따라 진행\n\n[참고]\n- Google Play에서 결제한 구독만 표시됩니다. 다른 결제처에서 구매한 구독은 해당 서비스나 결제처에서 해지해야 합니다.\n- 구독이 보이지 않으면 결제에 사용한 다른 Google 계정으로 전환해 확인하세요.\n- 앱을 삭제해도 정기 결제는 취소되지 않습니다.\n- 취소 후에도 이미 결제한 기간 동안은 계속 이용할 수 있습니다."
+    },
+    {
+      "serviceName": "Finelo",
+      "category": "교육",
+      "description": "Finelo 웹 또는 앱에서 구독을 관리하고 결제처에 맞게 취소할 수 있어요.",
+      "aliases": [
+        "피넬로",
+        "파이넬로",
+        "finelo trading",
+        "finelo subscription",
+        "finelo 구독"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://app.finelo.com"
+        }
+      ],
+      "androidPackage": "io.zimran.finelo",
+      "openMode": "both",
+      "steps": [
+        "Finelo 로그인",
+        "Profile 선택",
+        "Settings 선택",
+        "Manage Subscription 선택",
+        "Cancel Subscription 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Finelo Support Center - How do I unsubscribe?",
+          "url": "https://support.finelo.com/en/support/solutions/articles/73000639756-how-do-i-unsubscribe-"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nFinelo 공식 지원 문서 기준 구독 해지 경로는 다음과 같습니다.\n\n- Finelo 웹에서 결제한 경우\n(1) Finelo 계정에 로그인\n(2) Profile > Settings > Manage Subscription 이동\n(3) Cancel Subscription 선택 후 안내에 따라 진행\n\n- Android 앱에서 Google Play로 결제한 경우\n(1) Google Play 스토어 실행\n(2) 프로필 사진 > 결제 및 정기 결제 > 정기 결제 이동\n(3) Finelo 선택 후 정기 결제 취소 진행\n\n[참고]\n- 웹에서 가입한 구독은 Google Play 정기 결제에 표시되지 않을 수 있으므로 Finelo 프로필 설정에서 해지해야 합니다.\n- 취소 완료 후 이메일 또는 화면의 취소 확인 메시지를 확인하세요.\n- 취소 후에도 이미 결제한 이용 기간이 끝날 때까지 서비스를 이용할 수 있습니다.\n- Finelo 공식 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
     },
     {
       "serviceName": "개인정보 포털 탈퇴지원",
