@@ -797,6 +797,41 @@
       "notes": "[해지 경로]\nOpenAI 도움말 기준 웹에서 직접 결제한 개인 구독 해지 경로는 다음과 같습니다.\n\n(1) ChatGPT에 로그인\n(2) 프로필 아이콘 선택\n(3) 설정 선택\n(4) 결제 선택\n(5) 플랜 취소에서 취소 진행\n\n[참고]\n- 취소 효력은 다음 결제일의 다음 날부터 발생하며, 그전까지 서비스를 계속 이용할 수 있습니다.\n- 다음 결제를 막으려면 결제일 최소 24시간 전에 취소해야 합니다.\n- Google Play에서 구독했다면 ChatGPT가 아니라 Google Play 정기 결제에서 해지해야 합니다."
     },
     {
+      "serviceName": "Grok",
+      "category": "AI",
+      "description": "Grok 웹에서 결제한 SuperGrok 구독을 관리하거나 결제처에 맞게 해지할 수 있어요.",
+      "aliases": [
+        "그록",
+        "xAI",
+        "SuperGrok",
+        "슈퍼그록",
+        "Grok subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://grok.com/?_s=billing"
+        }
+      ],
+      "androidPackage": "ai.x.grok",
+      "openMode": "both",
+      "steps": [
+        "Grok 로그인",
+        "Settings 선택",
+        "Billing 선택",
+        "Manage Subscription 선택",
+        "구독 취소 진행"
+      ],
+      "sourceLinks": [
+        {
+          "title": "SpaceXAI Docs - FAQ - Grok Website / Apps",
+          "url": "https://docs.x.ai/grok/faq"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nSpaceXAI 공식 FAQ 기준 SuperGrok 구독 해지 경로는 다음과 같습니다.\n\n- Grok 웹에서 결제한 경우\n(1) Grok 웹사이트에 로그인\n(2) Settings > Billing 이동\n(3) Manage Subscription 선택\n(4) 구독 취소 진행\n\n- Android 앱에서 Google Play로 결제한 경우\n(1) Google Play 스토어 실행\n(2) 프로필 사진 > 결제 및 정기 결제 > 정기 결제 이동\n(3) Grok 선택\n(4) 정기 결제 취소 진행\n\n[참고]\n- 구독을 구매한 결제처에서 해지해야 합니다.\n- X Premium을 통해 Grok 혜택을 이용 중이라면 Grok이 아니라 X의 구독 설정 또는 해당 앱 마켓에서 해지해야 합니다.\n- 웹 구독 관리 화면이 열리지 않으면 광고 차단 기능을 끄거나 시크릿 창 또는 다른 브라우저에서 다시 시도할 수 있습니다.\n- SpaceXAI 공식 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
+    },
+    {
       "serviceName": "Adobe Creative Cloud",
       "category": "생산성",
       "description": "Adobe에서 직접 구매한 Creative Cloud 플랜을 관리하고 취소할 수 있어요.",
