@@ -293,6 +293,7 @@
       "aliases": [
         "디즈니플러스",
         "디즈니+",
+        "디플",
         "disney plus",
         "disney+"
       ],
@@ -830,6 +831,79 @@
       ],
       "noteTitle": "해지 경로",
       "notes": "[해지 경로]\nSpaceXAI 공식 FAQ 기준 SuperGrok 구독 해지 경로는 다음과 같습니다.\n\n- Grok 웹에서 결제한 경우\n(1) Grok 웹사이트에 로그인\n(2) Settings > Billing 이동\n(3) Manage Subscription 선택\n(4) 구독 취소 진행\n\n- Android 앱에서 Google Play로 결제한 경우\n(1) Google Play 스토어 실행\n(2) 프로필 사진 > 결제 및 정기 결제 > 정기 결제 이동\n(3) Grok 선택\n(4) 정기 결제 취소 진행\n\n[참고]\n- 구독을 구매한 결제처에서 해지해야 합니다.\n- X Premium을 통해 Grok 혜택을 이용 중이라면 Grok이 아니라 X의 구독 설정 또는 해당 앱 마켓에서 해지해야 합니다.\n- 웹 구독 관리 화면이 열리지 않으면 광고 차단 기능을 끄거나 시크릿 창 또는 다른 브라우저에서 다시 시도할 수 있습니다.\n- SpaceXAI 공식 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
+    },
+    {
+      "serviceName": "Google Gemini",
+      "category": "AI",
+      "description": "Gemini에서 사용하는 Google AI 요금제를 관리하고 해지할 수 있어요.",
+      "aliases": [
+        "제미나이",
+        "구글 제미나이",
+        "gemini",
+        "Google AI Pro",
+        "Google AI Ultra",
+        "Gemini Advanced"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://one.google.com/settings"
+        }
+      ],
+      "androidPackage": "com.google.android.apps.bard",
+      "openMode": "both",
+      "steps": [
+        "Gemini 또는 Google One 로그인",
+        "구독 관리 선택",
+        "Google One 설정 이동",
+        "멤버십 취소 선택",
+        "취소 확인"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Gemini 앱 고객센터 - Gemini 앱에서 Google AI 요금제 관리",
+          "url": "https://support.google.com/gemini/answer/14517446?hl=ko-KR"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nGemini 앱 고객센터 기준 Google AI 요금제 해지 경로는 다음과 같습니다.\n\n- Gemini 웹 앱\n(1) gemini.google.com에 로그인\n(2) 메뉴 > 설정 및 도움말 > 구독 관리 선택\n(3) 연결된 Google One 설정에서 멤버십 취소 선택\n(4) 취소 확인\n\n- Gemini Android 앱\n(1) Gemini 앱 실행\n(2) 프로필 사진 또는 이니셜 선택\n(3) 구독 관리 선택\n(4) Google One 설정에서 멤버십 취소 후 안내에 따라 진행\n\n[참고]\n- Gemini 유료 기능은 Google AI Plus, Pro 또는 Ultra 같은 Google One 요금제로 제공될 수 있습니다.\n- 다른 앱이나 결제처를 통해 구독했다면 원래 결제한 앱 또는 결제처에서 관리해야 합니다.\n- 요금제를 취소하면 결제 기간 종료 후 Gemini 유료 기능과 해당 Google One 혜택을 이용할 수 없습니다."
+    },
+    {
+      "serviceName": "Claude",
+      "category": "AI",
+      "description": "Claude Pro 또는 Max 구독을 결제한 플랫폼에서 관리하고 해지할 수 있어요.",
+      "aliases": [
+        "클로드",
+        "앤트로픽",
+        "anthropic",
+        "Claude Pro",
+        "Claude Max",
+        "클로드 프로",
+        "클로드 맥스"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://claude.ai/settings/billing"
+        }
+      ],
+      "androidPackage": "com.anthropic.claude",
+      "openMode": "both",
+      "steps": [
+        "Claude 로그인",
+        "Settings 선택",
+        "Billing 선택",
+        "Cancel 선택",
+        "취소 확인"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Claude Help Center - Cancel your Pro or Max subscription",
+          "url": "https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nClaude 공식 도움말 기준 Pro 또는 Max 구독 해지 경로는 다음과 같습니다.\n\n- Claude 웹 또는 데스크톱에서 결제한 경우\n(1) Claude에 로그인\n(2) 왼쪽 아래 이름 또는 이니셜 선택\n(3) Settings > Billing 이동\n(4) Cancel 선택 후 취소 확인\n\n- Claude Android 앱에서 결제한 경우\n(1) Claude 앱 실행\n(2) 오른쪽 위 이니셜 선택\n(3) Billing > Manage subscription 선택\n(4) Google Play 안내에 따라 취소 진행\n\n[참고]\n- 구독한 플랫폼에서 해지해야 하며, Android 앱 결제는 Google Play에서 처리됩니다.\n- 다음 결제를 막으려면 다음 결제일 최소 24시간 전에 취소해야 합니다.\n- 취소 후에도 현재 결제 기간이 끝날 때까지 유료 플랜을 이용할 수 있습니다.\n- Claude 공식 해지 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
     },
     {
       "serviceName": "Adobe Creative Cloud",
