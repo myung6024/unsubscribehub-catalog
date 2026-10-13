@@ -906,6 +906,85 @@
       "notes": "[해지 경로]\nClaude 공식 도움말 기준 Pro 또는 Max 구독 해지 경로는 다음과 같습니다.\n\n- Claude 웹 또는 데스크톱에서 결제한 경우\n(1) Claude에 로그인\n(2) 왼쪽 아래 이름 또는 이니셜 선택\n(3) Settings > Billing 이동\n(4) Cancel 선택 후 취소 확인\n\n- Claude Android 앱에서 결제한 경우\n(1) Claude 앱 실행\n(2) 오른쪽 위 이니셜 선택\n(3) Billing > Manage subscription 선택\n(4) Google Play 안내에 따라 취소 진행\n\n[참고]\n- 구독한 플랫폼에서 해지해야 하며, Android 앱 결제는 Google Play에서 처리됩니다.\n- 다음 결제를 막으려면 다음 결제일 최소 24시간 전에 취소해야 합니다.\n- 취소 후에도 현재 결제 기간이 끝날 때까지 유료 플랜을 이용할 수 있습니다.\n- Claude 공식 해지 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
     },
     {
+      "serviceName": "Google Workspace",
+      "category": "생산성",
+      "description": "Google 관리 콘솔에서 조직의 Workspace 구독을 관리하고 취소할 수 있어요.",
+      "aliases": [
+        "구글 워크스페이스",
+        "구글워크스페이스",
+        "워크스페이스",
+        "google workspace",
+        "g suite",
+        "gsuite",
+        "지스위트",
+        "workspace individual"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://admin.google.com/ac/billing/subscriptions?hl=ko"
+        }
+      ],
+      "androidPackage": null,
+      "openMode": "webOnly",
+      "steps": [
+        "관리자 계정 로그인",
+        "결제 > 구독 선택",
+        "Google Workspace 구독 선택",
+        "더보기 > 구독 취소 선택",
+        "안내 확인 후 취소 완료"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google Workspace 고객센터 - Google Workspace 취소하기",
+          "url": "https://knowledge.workspace.google.com/admin/billing/cancel-google-workspace?hl=ko"
+        },
+        {
+          "title": "Google Workspace Individual Help - Cancel your Google Workspace Individual subscription",
+          "url": "https://support.google.com/google-workspace-individual/answer/10758208?hl=en"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nGoogle Workspace 공식 고객센터 기준 조직용 구독 취소 경로는 다음과 같습니다.\n\n(1) 필요한 메일과 문서 등 데이터를 먼저 내보내기\n(2) 결제 관리 권한이 있는 관리자 계정으로 Google 관리 콘솔에 로그인\n(3) 결제 > 구독 > Google Workspace 선택\n(4) 더보기 > 구독 취소 선택. 구독에 따라 더보기 없이 구독 취소가 표시될 수 있습니다.\n(5) 취소 사유와 대안을 확인하고 그대로 취소 진행\n(6) 확인란 선택 및 이메일 주소 입력 후 구독 취소 완료\n\n- Workspace Individual 구독\nhttps://workspace.google.com/individual/manage 에서 결제 계정으로 로그인 > Upcoming Payment > Cancel subscription > 안내 확인 > Finalize cancellation\n\n[참고]\n- 조직용 Workspace 취소 후에는 Gmail 등 핵심 서비스 사용이 중단되고 데이터가 삭제될 수 있으므로 필요한 자료를 먼저 보관하세요.\n- 연간/약정 요금제는 취소해도 잔여 계약 금액이 청구됩니다. 마지막 결제 이후의 사용료도 청구될 수 있습니다.\n- 리셀러를 통해 구매했다면 해당 판매처에 취소를 요청하세요. Google Play 또는 App Store 결제는 해당 결제처에서 취소해야 합니다.\n- Gmail 주소로 가입한 Business 버전과 Essentials는 첫 번째 공식 도움말에서 해당 버전의 별도 취소 안내를 확인하세요.\n- Workspace Individual은 취소 후 현재 결제 기간이 끝날 때까지 이용할 수 있으며, 해당 취소 도움말은 한국어를 제공하지 않아 영어 원문을 연결합니다.\n- Workspace 구독 취소와 조직의 Google 계정 삭제는 별도 절차입니다."
+    },
+    {
+      "serviceName": "Google Cloud",
+      "category": "클라우드",
+      "description": "Cloud Billing 계정을 닫아 Google Cloud 사용을 중단하는 경로를 확인할 수 있어요.",
+      "aliases": [
+        "구글 클라우드",
+        "구글클라우드",
+        "google cloud",
+        "google cloud platform",
+        "gcp",
+        "cloud billing",
+        "구글 클라우드 결제"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://console.cloud.google.com/billing?hl=ko"
+        }
+      ],
+      "androidPackage": null,
+      "openMode": "webOnly",
+      "steps": [
+        "Google Cloud 콘솔 로그인",
+        "닫을 Cloud Billing 계정 선택",
+        "계정 관리 선택",
+        "연결된 프로젝트와 데이터 확인",
+        "결제 계정 닫기 선택"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google Cloud 문서 - Cloud Billing 계정 닫기 또는 다시 열기",
+          "url": "https://docs.cloud.google.com/billing/docs/how-to/close-or-reopen-billing-account?hl=ko"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nGoogle Cloud 공식 문서 기준 셀프 서비스 Cloud Billing 계정을 닫는 경로는 다음과 같습니다.\n\n(1) Google Cloud 결제 콘솔에 로그인\n(2) 닫으려는 Cloud Billing 계정 선택\n(3) 결제 관리 영역에서 계정 관리 선택\n(4) 연결된 프로젝트의 서비스와 데이터에 미치는 영향 확인\n(5) 페이지 상단의 결제 계정 닫기 선택 후 안내에 따라 진행\n\n[참고]\n- 일반 월정액 구독 취소가 아니라 Cloud Billing 계정을 닫는 절차입니다.\n- 결제 계정 관리자 등 계정을 닫을 수 있는 권한이 필요합니다.\n- 해당 계정에 연결된 모든 프로젝트의 청구 가능한 서비스가 중지됩니다. 유지할 프로젝트는 먼저 다른 활성 결제 계정에 연결하고 필요한 데이터를 보관하세요.\n- 특정 프로젝트만 중단하려면 계정 전체를 닫는 대신 해당 프로젝트의 결제를 사용 중지하는 방법을 검토하세요.\n- 계정을 닫아도 이미 발생한 사용료는 최종 청구될 수 있습니다. 미결제 금액이나 결제 정보 문제로 닫기 버튼을 사용할 수 없는 경우도 있습니다.\n- 인보이스 결제 계정은 콘솔에서 직접 닫을 수 없으므로 Google Cloud 영업 담당자 또는 Cloud Billing 지원팀에 문의하세요.\n- 결제 계정 닫기와 Google 결제 프로필의 영구 해지는 다른 절차입니다."
+    },
+    {
       "serviceName": "Adobe Creative Cloud",
       "category": "생산성",
       "description": "Adobe에서 직접 구매한 Creative Cloud 플랜을 관리하고 취소할 수 있어요.",
