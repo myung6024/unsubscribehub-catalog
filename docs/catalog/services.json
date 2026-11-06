@@ -70,6 +70,54 @@
       "notes": "[해지 경로]\nFinelo 공식 지원 문서 기준 구독 해지 경로는 다음과 같습니다.\n\n- Finelo 웹에서 결제한 경우\n(1) Finelo 계정에 로그인\n(2) Profile > Settings > Manage Subscription 이동\n(3) Cancel Subscription 선택 후 안내에 따라 진행\n\n- Android 앱에서 Google Play로 결제한 경우\n(1) Google Play 스토어 실행\n(2) 프로필 사진 > 결제 및 정기 결제 > 정기 결제 이동\n(3) Finelo 선택 후 정기 결제 취소 진행\n\n[참고]\n- 웹에서 가입한 구독은 Google Play 정기 결제에 표시되지 않을 수 있으므로 Finelo 프로필 설정에서 해지해야 합니다.\n- 취소 완료 후 이메일 또는 화면의 취소 확인 메시지를 확인하세요.\n- 취소 후에도 이미 결제한 이용 기간이 끝날 때까지 서비스를 이용할 수 있습니다.\n- Finelo 공식 도움말은 현재 한국어 문서를 제공하지 않아 영어 문서를 연결합니다."
     },
     {
+      "serviceName": "MyGrowth",
+      "category": "교육",
+      "description": "MyGrowth 웹 결제 해지 요청과 스토어 결제 취소 방법을 안내해요.",
+      "aliases": [
+        "마이그로스",
+        "마이그로우스",
+        "mygrowth",
+        "my growth",
+        "하루 5분 학습",
+        "daily micro learning"
+      ],
+      "links": [
+        {
+          "kind": "support",
+          "url": "https://account.mygrowth.one/contact-form"
+        }
+      ],
+      "androidPackage": null,
+      "openMode": "webOnly",
+      "steps": [
+        "영수증에서 결제처 확인",
+        "웹 결제라면 공식 문의 폼 열기",
+        "Cancel subscription 선택",
+        "가입 이메일과 해지 요청 제출",
+        "해지 완료 회신 확인"
+      ],
+      "sourceLinks": [
+        {
+          "title": "MyGrowth - Contact us",
+          "url": "https://account.mygrowth.one/contact-form"
+        },
+        {
+          "title": "MyGrowth - Terms of Use (Refunds and Cancellation Policy)",
+          "url": "https://quiz.mygrowth.one/terms-of-use"
+        },
+        {
+          "title": "Apple 지원 - Apple 구독 취소하기",
+          "url": "https://support.apple.com/ko-kr/118428"
+        },
+        {
+          "title": "Google Play 고객센터 - 정기 결제 취소, 일시중지 또는 변경",
+          "url": "https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=ko"
+        }
+      ],
+      "noteTitle": "해지 경로",
+      "notes": "[해지 경로]\nMyGrowth: 하루 5분 학습(마이크로러닝 서비스)의 공식 약관과 문의 폼 기준 안내입니다. 먼저 영수증에서 결제처를 확인하세요.\n\n- MyGrowth 웹사이트에서 결제한 경우\n(1) 사이트 이동하기로 공식 Contact us 문의 폼 열기\n(2) 이름과 가입 시 사용한 이메일 입력\n(3) Select topic에서 Cancel subscription 선택\n(4) 요청 내용에 구독 해지와 자동 갱신 중단 의사를 작성해 Submit으로 제출\n(5) 고객지원 회신에서 해지 완료 여부 확인\n\n- Apple App Store로 결제한 경우\niPhone 설정 > 사용자 이름 > 구독 > MyGrowth > 구독 취소로 진행하세요.\n\n- Google Play로 결제한 경우\nGoogle Play 스토어 > 프로필 > 결제 및 정기 결제 > 정기 결제 > MyGrowth > 정기 결제 취소로 진행하세요.\n\n[참고]\n- 연결된 웹페이지는 해지 요청을 접수하는 고객지원 폼이며, 접속만으로 즉시 해지되는 직접 해지 링크는 아닙니다.\n- 웹 결제 구독은 Apple 또는 Google Play 구독 목록에 표시되지 않을 수 있으므로 MyGrowth에 별도로 해지를 요청하세요.\n- 공식 약관은 다음 갱신 또는 체험 종료 최소 24시간 전에 취소하도록 안내합니다.\n- 앱 삭제나 계정 삭제만으로 구독이 취소되지 않습니다.\n- 구독 해지와 환불은 별도이며, 스토어 결제 환불은 해당 결제처에 요청해야 합니다.\n- MyGrowth 웹 해지 약관과 문의 폼은 영어로 제공됩니다.\n\n[고객센터 문의 경로]\n문의 폼 이용이 어렵다면 공식 고객지원 이메일 support@mygrowth.one으로 구독 해지를 요청하세요."
+    },
+    {
       "serviceName": "개인정보 포털 탈퇴지원",
       "category": "통합 관리",
       "description": "여러 웹사이트의 회원 탈퇴를 지원하는 정부 운영 링크예요.",
