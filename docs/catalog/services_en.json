@@ -1,0 +1,537 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "serviceName": "Google Play Subscriptions",
+      "category": "Billing platforms",
+      "description": "Manage subscriptions billed through Google Play.",
+      "aliases": [
+        "Play Store",
+        "Android subscriptions",
+        "Google subscriptions"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://play.google.com/store/account/subscriptions"
+        }
+      ],
+      "androidPackage": "com.android.vending",
+      "openMode": "both",
+      "steps": [
+        "Open Google Play subscriptions",
+        "Sign in with the Google Account that paid",
+        "Select the subscription",
+        "Choose Cancel subscription and confirm"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google Play Help — Cancel or change a subscription",
+          "url": "https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=en"
+        }
+      ],
+      "notes": "In the Play Store app, open your profile menu, then Payments & subscriptions, then Subscriptions. If the subscription is missing, switch to the Google Account shown on your receipt or check which company billed you. Removing an app leaves its subscription active."
+    },
+    {
+      "serviceName": "Apple Subscriptions",
+      "category": "Billing platforms",
+      "description": "Manage subscriptions billed by Apple, including App Store purchases.",
+      "aliases": [
+        "App Store subscriptions",
+        "Apple Account",
+        "iPhone subscriptions",
+        "iTunes subscriptions"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://account.apple.com/account/manage/section/subscriptions"
+        }
+      ],
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in with the Apple Account shown on your receipt",
+        "Follow the prompts to find the subscription",
+        "Choose Cancel Subscription"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Apple Support — Cancel a subscription from Apple",
+          "url": "https://support.apple.com/en-us/118428"
+        },
+        {
+          "title": "Google Play Help — Cancel or change a subscription",
+          "url": "https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=en"
+        }
+      ],
+      "notes": "On iPhone or iPad, open Settings, tap your name, and open Subscriptions. If you paid for Apple Music or Apple TV through Google Play, manage it in your Google Play subscriptions."
+    },
+    {
+      "serviceName": "Netflix",
+      "category": "Streaming",
+      "description": "Open the Netflix cancellation page or find your billing partner.",
+      "aliases": [
+        "Netflix membership"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.netflix.com/cancelplan"
+        }
+      ],
+      "androidPackage": "com.netflix.mediaclient",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to Netflix",
+        "Open the cancellation page",
+        "Choose Finish Cancellation"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Netflix Help Center — How to cancel Netflix",
+          "url": "https://help.netflix.com/en/node/407"
+        }
+      ],
+      "notes": "If Netflix does not show a cancellation option, check the Membership section of your account for the billing partner and follow its instructions. Your account page shows when your access ends."
+    },
+    {
+      "serviceName": "Disney+",
+      "category": "Streaming",
+      "description": "Cancel Disney+ from your account or through the company that bills you.",
+      "aliases": [
+        "Disney Plus",
+        "Disney bundle"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.disneyplus.com/account"
+        }
+      ],
+      "androidPackage": "com.disney.disneyplus",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to Disney+ in a browser",
+        "Open your profile and choose Account",
+        "Select your subscription",
+        "Choose Cancel Subscription and follow the prompts"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Disney+ Help Center — How to cancel Disney+",
+          "url": "https://help.disneyplus.com/en-GB/article/disneyplus-en-ae-cancel"
+        }
+      ],
+      "notes": "For subscriptions or bundles billed by another company, use that provider’s cancellation process. Check which plan you selected before confirming if you have more than one subscription."
+    },
+    {
+      "serviceName": "Spotify Premium",
+      "category": "Music",
+      "description": "Manage or cancel your Spotify Premium plan.",
+      "aliases": [
+        "Spotify",
+        "Spotify Family",
+        "Spotify Duo"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.spotify.com/account/subscription/manage/"
+        }
+      ],
+      "androidPackage": "com.spotify.music",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to your Spotify account",
+        "Open Manage your plan",
+        "Select Cancel subscription"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Spotify Support — How to cancel Premium plans",
+          "url": "https://support.spotify.com/us/article/cancel-premium/"
+        }
+      ],
+      "notes": "If you pay through a partner, look under Payment for the partner’s contact information. If you belong to a Family or Duo plan, only the plan manager can cancel the whole plan."
+    },
+    {
+      "serviceName": "YouTube Premium",
+      "category": "Streaming",
+      "description": "Manage YouTube Premium or YouTube Music Premium.",
+      "aliases": [
+        "YouTube Music Premium",
+        "YouTube paid memberships"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.youtube.com/paid_memberships"
+        }
+      ],
+      "androidPackage": "com.google.android.youtube",
+      "openMode": "both",
+      "steps": [
+        "Open your paid memberships",
+        "Select Manage membership",
+        "Choose Deactivate",
+        "Continue to cancel and follow the prompts"
+      ],
+      "sourceLinks": [
+        {
+          "title": "YouTube Help — Cancel Premium in a browser",
+          "url": "https://support.google.com/youtube/answer/6308278?co=GENIE.Platform%3DDesktop&hl=en"
+        },
+        {
+          "title": "YouTube Help — Cancel Premium in the Android app",
+          "url": "https://support.google.com/youtube/answer/6308278?co=GENIE.Platform%3DAndroid&hl=en"
+        }
+      ],
+      "notes": "In the Android app, open your profile picture, choose Paid memberships, select the membership, and tap Continue to cancel. Follow the prompts and confirm. If Apple or Google Play bills you, use that store’s subscription settings."
+    },
+    {
+      "serviceName": "ChatGPT",
+      "category": "AI",
+      "description": "Find cancellation steps for a ChatGPT plan based on where you paid.",
+      "aliases": [
+        "Chat GPT",
+        "ChatGPT Plus",
+        "ChatGPT Pro",
+        "OpenAI"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://chatgpt.com/"
+        }
+      ],
+      "androidPackage": "com.openai.chatgpt",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to ChatGPT in a browser",
+        "Open your account menu and choose Settings",
+        "Open Billing",
+        "Under Cancel plan, choose Cancel"
+      ],
+      "sourceLinks": [
+        {
+          "title": "OpenAI Help Center — Canceling your ChatGPT subscription",
+          "url": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription"
+        }
+      ],
+      "notes": "The steps above apply to personal plans purchased on chatgpt.com. Cancel at least 24 hours before the next billing date to avoid another charge. Use the store that billed you for App Store or Google Play purchases. Manage self-service ChatGPT Business plans in workspace billing settings."
+    },
+    {
+      "serviceName": "Google One",
+      "category": "Cloud storage",
+      "description": "Manage your Google One storage membership.",
+      "aliases": [
+        "Google storage",
+        "Google Drive storage"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://one.google.com/settings"
+        }
+      ],
+      "androidPackage": "com.google.android.apps.subscriptions.red",
+      "openMode": "both",
+      "steps": [
+        "Sign in to Google One",
+        "Open Settings",
+        "Choose Cancel membership and confirm"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Google One Help — Cancel your Google One membership",
+          "url": "https://support.google.com/googleone/answer/9056360?co=GENIE.Platform%3DAndroid&hl=en"
+        }
+      ],
+      "notes": "In the Android app, open Menu, then Settings to find Cancel membership. If Apple bills you, manage the subscription through Apple. Check your storage usage before canceling because your account storage limit may decrease."
+    },
+    {
+      "serviceName": "Google Gemini",
+      "category": "AI",
+      "description": "Manage the Google AI plan that powers paid Gemini features.",
+      "aliases": [
+        "Google AI Pro",
+        "Google AI Ultra",
+        "Google AI Plus",
+        "Gemini Advanced"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://one.google.com/settings"
+        }
+      ],
+      "androidPackage": "com.google.android.apps.bard",
+      "openMode": "both",
+      "steps": [
+        "Open Google One settings with the account that pays for your plan",
+        "Choose Cancel membership",
+        "Review the changes and confirm"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Gemini Apps Help — Manage your Google AI plan",
+          "url": "https://support.google.com/gemini/answer/14517446?co=GENIE.Platform%3DAndroid&hl=en"
+        }
+      ],
+      "notes": "In the Gemini app, open Menu, tap your profile picture or initial, and select Manage subscriptions to reach Google One settings. Review the storage and other benefits attached to your plan before you confirm."
+    },
+    {
+      "serviceName": "Claude",
+      "category": "AI",
+      "description": "Find cancellation steps for a paid personal Claude plan.",
+      "aliases": [
+        "Anthropic",
+        "Claude Pro",
+        "Claude Max",
+        "Claude Ultra"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://claude.ai/settings/billing"
+        }
+      ],
+      "androidPackage": "com.anthropic.claude",
+      "openMode": "both",
+      "steps": [
+        "Sign in to Claude in a browser",
+        "Open Settings and select Billing",
+        "Choose Cancel and follow the prompts"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Claude Help Center — Cancel your Pro, Max, or Ultra subscription",
+          "url": "https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription"
+        }
+      ],
+      "notes": "For an Android purchase, tap your initials in Claude, open Billing, and select Manage subscription. You can also cancel through the store that billed you. Claude advises canceling at least 24 hours before your next billing date."
+    },
+    {
+      "serviceName": "Life360",
+      "category": "Memberships",
+      "description": "Find the cancellation path for the company that bills your Life360 membership.",
+      "aliases": [
+        "Life 360",
+        "Life360 membership"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.life360.com/login"
+        }
+      ],
+      "androidPackage": "com.life360.android.safetymapd",
+      "openMode": "both",
+      "steps": [
+        "Open Life360 and go to Settings",
+        "Open Account",
+        "Choose Cancel Membership",
+        "Complete cancellation with the billing provider"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Life360 Help Center — Cancel My Membership",
+          "url": "https://support.life360.com/hc/en-us/articles/23053539274135-Cancel-My-Membership"
+        }
+      ],
+      "notes": "For web purchases, sign in to Life360, open Manage Membership, and choose Cancel Subscription. For App Store or Google Play purchases, use the subscription settings for that store."
+    },
+    {
+      "serviceName": "Finelo",
+      "category": "Education",
+      "description": "Cancel a Finelo membership from your profile or the app store that billed you.",
+      "aliases": [
+        "Finelo trading",
+        "Finelo subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://app.finelo.com/"
+        }
+      ],
+      "androidPackage": "io.zimran.finelo",
+      "openMode": "both",
+      "steps": [
+        "Sign in to Finelo",
+        "Open Profile and Settings",
+        "Choose Manage Subscription",
+        "Select Cancel Subscription"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Finelo Support Center — How do I unsubscribe?",
+          "url": "https://support.finelo.com/en/support/solutions/articles/73000639756-how-do-i-unsubscribe-"
+        }
+      ],
+      "notes": "Use your Finelo profile for a purchase made on its website. For purchases billed by an app store, use that store’s subscription controls. Look for a confirmation message after you cancel."
+    },
+    {
+      "serviceName": "Telegram Premium",
+      "category": "Memberships",
+      "description": "Cancel Telegram Premium through the store or bot that billed you.",
+      "aliases": [
+        "Telegram",
+        "PremiumBot"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://play.google.com/store/account/subscriptions"
+        }
+      ],
+      "androidPackage": "org.telegram.messenger",
+      "openMode": "both",
+      "steps": [
+        "Check your receipt to find who billed you",
+        "Open that store’s subscription settings or @PremiumBot",
+        "Choose Telegram Premium and cancel, or send /stop to @PremiumBot"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Telegram Premium FAQ — How can I cancel my subscription?",
+          "url": "https://telegram.org/faq_premium#q-how-can-i-cancel-my-subscription"
+        },
+        {
+          "title": "Google Play Help — Cancel or change a subscription",
+          "url": "https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&hl=en"
+        },
+        {
+          "title": "Apple Support — Cancel a subscription from Apple",
+          "url": "https://support.apple.com/en-us/118428"
+        }
+      ],
+      "notes": "The website link opens Google Play subscriptions. If you bought Premium from @PremiumBot, send /stop in the bot chat. For Apple purchases, use Apple Subscriptions. Uninstalling Telegram leaves your subscription active."
+    },
+    {
+      "serviceName": "Adobe Creative Cloud",
+      "category": "Productivity",
+      "description": "Manage an Adobe plan or trial from your Adobe account.",
+      "aliases": [
+        "Adobe",
+        "Photoshop",
+        "Lightroom",
+        "Adobe subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://account.adobe.com/plans"
+        }
+      ],
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to your Adobe account",
+        "Select Manage plan for the right subscription",
+        "Choose Cancel your plan",
+        "Review the details and confirm"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Adobe Help — Cancel an Adobe trial or subscription",
+          "url": "https://helpx.adobe.com/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html"
+        }
+      ],
+      "notes": "Review any cancellation fee shown before confirming. If you paid through another company, use its cancellation process. If you have several Adobe plans, check each one separately."
+    },
+    {
+      "serviceName": "Microsoft 365",
+      "category": "Productivity",
+      "description": "Manage a personal or family Microsoft 365 subscription.",
+      "aliases": [
+        "Office 365",
+        "Microsoft Office",
+        "Microsoft 365 Family"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://account.microsoft.com/services"
+        }
+      ],
+      "androidPackage": "com.microsoft.office.officehubrow",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to the Microsoft account that paid",
+        "Find Microsoft 365 and choose Manage",
+        "Choose the cancellation option and follow the prompts"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Microsoft Support — Cancel your Microsoft subscription",
+          "url": "https://support.microsoft.com/en-us/accounts-billing/subscriptions/cancel-your-microsoft-subscription"
+        }
+      ],
+      "notes": "If the page offers Turn on recurring billing, auto-renewal is already off. If an app store or retailer billed your plan, contact that provider for cancellation."
+    },
+    {
+      "serviceName": "Xbox Game Pass",
+      "category": "Gaming",
+      "description": "Cancel Game Pass or turn off recurring billing from your Microsoft account.",
+      "aliases": [
+        "Game Pass",
+        "Game Pass Ultimate",
+        "Xbox subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://account.microsoft.com/services"
+        }
+      ],
+      "androidPackage": "com.microsoft.xboxone.smartglass",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to the Microsoft account you use for Xbox",
+        "Find Game Pass and choose Manage",
+        "Choose Cancel subscription or turn off recurring billing"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Xbox Support — Cancel a subscription or turn off recurring billing",
+          "url": "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription"
+        },
+        {
+          "title": "Microsoft Support — Cancel your Microsoft subscription",
+          "url": "https://support.microsoft.com/en-us/accounts-billing/subscriptions/cancel-your-microsoft-subscription"
+        }
+      ],
+      "notes": "Turning off recurring billing lets the subscription expire at the end of the paid period. Check your account page for the expiration date."
+    },
+    {
+      "serviceName": "Nintendo Switch Online",
+      "category": "Gaming",
+      "description": "Turn off automatic renewal for Nintendo Switch Online.",
+      "aliases": [
+        "Nintendo subscription",
+        "Switch Online",
+        "Nintendo Expansion Pack"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://accounts.nintendo.com/portal"
+        }
+      ],
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in with the Nintendo Account that purchased the membership",
+        "Open Nintendo Switch Online",
+        "Select the option to turn off auto-renewal",
+        "Confirm the change"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Nintendo Support — Cancel or manage automatic renewal",
+          "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196/"
+        }
+      ],
+      "notes": "To prevent renewal, turn it off at least 48 hours before your membership expires. You can also manage it from the Nintendo eShop on a Switch console."
+    }
+  ]
+}
