@@ -40,7 +40,10 @@
         "App Store subscriptions",
         "Apple Account",
         "iPhone subscriptions",
-        "iTunes subscriptions"
+        "iTunes subscriptions",
+        "Apple Music",
+        "Apple TV",
+        "Apple One"
       ],
       "links": [
         {
@@ -532,6 +535,179 @@
         }
       ],
       "notes": "To prevent renewal, turn it off at least 48 hours before your membership expires. You can also manage it from the Nintendo eShop on a Switch console."
+    },
+    {
+      "serviceName": "CLASS101+",
+      "category": "Education",
+      "description": "Find the CLASS101+ cancellation path on the website or in the app.",
+      "aliases": [
+        "CLASS101",
+        "CLASS101 Plus",
+        "Class 101"
+      ],
+      "links": [
+        {
+          "kind": "support",
+          "url": "https://help.class101.tv/classmate/how-to-cancel-class101-plus"
+        }
+      ],
+      "androidPackage": "net.pedaling.class101",
+      "openMode": "both",
+      "steps": [
+        "Sign in to CLASS101 on the website or in the app",
+        "Open My Page and CLASS101+ Subscription Management",
+        "Select Cancel Subscription and continue",
+        "Choose a reason and confirm cancellation"
+      ],
+      "sourceLinks": [
+        {
+          "title": "CLASS101 Help Center — How to Cancel Your CLASS101+ Subscription",
+          "url": "https://help.class101.tv/classmate/how-to-cancel-class101-plus"
+        },
+        {
+          "title": "CLASS101 Help Center — How to Request a Refund for CLASS101+ Subscription",
+          "url": "https://help.class101.tv/classmate/class101-subscription-refund-request"
+        }
+      ],
+      "noteTitle": "Cancellation guide",
+      "notes": "[Cancellation path]\nFollow My Page > CLASS101+ Subscription Management > Cancel Subscription, then confirm, choose a reason, and complete cancellation.\n\n[Notes]\nThe website link opens the official instructions, not a direct cancellation page. Cancellation stops the next renewal and leaves access available for the remaining subscription period. A refund requires a separate request; check the refund article for your payment provider. Apple App Store refunds go through Apple. Group plan cancellation and refunds must be handled by the representative account after other group members have been removed, as described in the refund guide."
+    },
+    {
+      "serviceName": "Canva Pro",
+      "category": "Productivity",
+      "description": "Manage a paid Canva plan or find cancellation steps for your billing provider.",
+      "aliases": [
+        "Canva",
+        "Canva Business",
+        "Canva Teams",
+        "Canva subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.canva.com/settings/billing-and-teams"
+        }
+      ],
+      "androidPackage": "com.canva.editor",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to the Canva account and team that pays",
+        "Open Settings, then Billing",
+        "Under the plan, select Cancel plan",
+        "Follow the prompts and check the confirmation email"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Canva Help Center — Cancel a Canva plan",
+          "url": "https://www.canva.com/help/cancel-canva-plan/"
+        }
+      ],
+      "noteTitle": "Cancellation guide",
+      "notes": "[Cancellation path]\nFor a plan bought directly from Canva, sign in to the right account and team. Open your profile menu > Settings > Billing, select Cancel plan under the subscription, and confirm.\n\n[Notes]\nThe link opens billing settings and may ask you to sign in. If Google Play or the Apple App Store billed you, cancel through that store; these subscriptions cannot be canceled directly in the Canva app. Paid features remain available until the current billing period ends. A refund is a separate request. Deleting the app leaves a store subscription active. Canva says a canceled legacy Canva Teams plan cannot be subscribed to again, so review the conditions before confirming."
+    },
+    {
+      "serviceName": "Perplexity",
+      "category": "AI",
+      "description": "Cancel Perplexity Pro or Max through the platform where you subscribed.",
+      "aliases": [
+        "Perplexity AI",
+        "Perplexity Pro",
+        "Perplexity Max"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://perplexity.ai/settings"
+        }
+      ],
+      "androidPackage": "ai.perplexity.app.android",
+      "openMode": "both",
+      "steps": [
+        "Check the receipt to identify your billing provider",
+        "For a web purchase, sign in and open Settings",
+        "Under Subscription, choose Manage Subscription",
+        "Select Cancel subscription and confirm"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Perplexity Help Center — Canceling a Subscription",
+          "url": "https://www.perplexity.ai/help-center/en/articles/10354283-canceling-a-subscription"
+        }
+      ],
+      "noteTitle": "Cancellation guide",
+      "notes": "[Cancellation path]\nFor a web purchase, open Settings > Subscription under Perplexity Pro > Manage Subscription > Cancel subscription.\n\nFor a Google Play purchase, open Play Store > profile > Payments & subscriptions > Subscriptions > Perplexity > Cancel subscription. For Apple purchases, open App Store > profile > Subscriptions > Perplexity > Cancel subscription. For a Samsung Galaxy Store purchase, open Galaxy Store > Menu > Subscriptions > Perplexity > Unsubscribe. The Android app also shows Galaxy Store guidance under Settings > Subscription > Manage Subscriptions.\n\n[Notes]\nThe website link opens settings, not an immediate cancellation action. Store purchases do not show a cancellation option in Perplexity web settings. After cancellation, your account returns to the free version at the end of the current billing cycle. Deleting your account does not cancel your subscription."
+    },
+    {
+      "serviceName": "Notion",
+      "category": "Productivity",
+      "description": "Downgrade a paid Notion workspace to Free or cancel through your app store.",
+      "aliases": [
+        "Notion Plus",
+        "Notion Business",
+        "Notion AI",
+        "Notion subscription"
+      ],
+      "links": [
+        {
+          "kind": "subscription",
+          "url": "https://www.notion.com/login"
+        }
+      ],
+      "androidPackage": "notion.id",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to Notion on desktop or the web",
+        "Select the paid workspace",
+        "Open Settings > Billing > Change plan",
+        "Choose Free, then Continue",
+        "Confirm the downgrade and check the plan end date"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Notion Help — Downgrading your Notion plan",
+          "url": "https://www.notion.com/help/plan-downgrade"
+        },
+        {
+          "title": "Notion Help — Change your plan",
+          "url": "https://www.notion.com/help/upgrade-or-downgrade-your-plan"
+        }
+      ],
+      "noteTitle": "Cancellation guide",
+      "notes": "[Cancellation path]\nFor a web purchase, select the paid workspace on desktop or the web. Open Settings > Billing > Change plan, select Free, click Continue, provide feedback, and confirm Downgrade. Check the confirmation and the date your current plan ends.\n\n[Notes]\nThe link opens sign-in, not a direct cancellation page. Plans are billed per workspace, so check each paid workspace separately. For subscriptions purchased through the Apple App Store or Google Play, cancel through that store. Paid features remain available until the current billing period ends. Review the changes to features such as file uploads, page history, and guests before downgrading."
+    },
+    {
+      "serviceName": "Dropbox",
+      "category": "Cloud storage",
+      "description": "Cancel an individual Dropbox plan or find the right app-store cancellation route.",
+      "aliases": [
+        "Dropbox Plus",
+        "Dropbox Professional",
+        "Dropbox Essentials",
+        "Dropbox subscription"
+      ],
+      "links": [
+        {
+          "kind": "support",
+          "url": "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans"
+        }
+      ],
+      "androidPackage": "com.dropbox.android",
+      "openMode": "webOnly",
+      "steps": [
+        "Sign in to the Dropbox account that pays",
+        "Open your avatar, then Manage account",
+        "Select Cancel plan at the bottom",
+        "Choose a reason and continue canceling",
+        "Check the confirmation email"
+      ],
+      "sourceLinks": [
+        {
+          "title": "Dropbox Help — Cancel or change an individual Dropbox subscription",
+          "url": "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans"
+        }
+      ],
+      "noteTitle": "Cancellation guide",
+      "notes": "[Cancellation path]\nFor Plus, Professional, or Essentials bought on the web, sign in to Dropbox. Open your avatar > Manage account > Cancel plan, choose a reason, and continue canceling or confirm the change. Check the confirmation email.\n\n[Notes]\nThe website link opens the official help article, not a direct cancellation page. If Cancel plan is missing, check whether an app store billed you and cancel there. At the end of the current billing cycle, your account changes to Dropbox Basic. Basic includes 2 GB of storage. Going over the limit can restrict syncing and other file operations; Dropbox may delete files if the account remains over its limit, so review your files first. Family plans, team plans, and trials have separate instructions linked from the help article. Deleting the app or letting a payment card expire does not cancel the subscription."
     }
   ]
 }
