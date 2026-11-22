@@ -1,6 +1,6 @@
 # Remote Catalog
 
-`services.json` is the serverless catalog source for the app.
+The app uses two catalogs. `services.json` is the Korean catalog. `services_en.json` contains English-language guides for services with verified English support.
 
 Recommended flow:
 
@@ -8,13 +8,17 @@ Recommended flow:
 2. Run `tools/export_catalog_json.ps1`.
 3. Export the result to `docs/catalog/services.json`.
 4. Enable GitHub Pages for the repository.
-5. The app reads `https://myung6024.github.io/unsubscribehub-catalog/catalog/services.json`.
+5. The app reads `https://myung6024.github.io/unsubscribehub-catalog/catalog/services.json` for Korean.
+
+Edit `app/src/main/res/raw/services_en.json` in the app repository to update the English catalog. The app bundles this file for offline use, and the sync workflow copies it to `https://myung6024.github.io/unsubscribehub-catalog/catalog/services_en.json`.
+
+The app picks the catalog using the same Android language resources as the interface. English is the default for unsupported languages. Each language has its own cache. The Korean catalog can still read the cache written by previous releases.
 
 Runtime fallback order inside the app:
 
 1. Remote JSON from GitHub Pages
 2. Cached JSON stored on device
-3. Bundled sample catalog in the app
+3. Bundled catalog for the selected language
 
 Expected JSON shape:
 
@@ -63,7 +67,7 @@ pwsh ./tools/export_catalog_json.ps1
 GitHub Actions automation:
 
 - Workflow file: `.github/workflows/sync-catalog-repo.yml`
-- Trigger: push to `master` when `SampleCatalog.kt`, the export script, or this README changes
+- Trigger: push to `master` when either catalog source, the export script, this README, or the workflow changes
 - Target repo: `myung6024/unsubscribehub-catalog`
 - Required secret: `CATALOG_REPO_TOKEN`
 
